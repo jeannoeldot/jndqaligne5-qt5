@@ -13,11 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        caligne5.cpp
+        caligne5.cpp \
+    cpreference.cpp
 
 HEADERS  += caligne5.h \
     enumeration.h \
-    constante.h
+    constante.h \
+    cpreference.h
 
 RESOURCES += \
     jndqaligne5.qrc
@@ -33,3 +35,6 @@ unix|win32: LIBS += -lSDL_mixer
 unix|win32: LIBS += -lSDL
 
 TRANSLATIONS += jndqaligne5_fr.ts
+
+FORMS += \
+    dlgpreference.ui

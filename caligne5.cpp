@@ -12,6 +12,7 @@
 #include <QTime>
 
 #include "caligne5.h"
+#include "cpreference.h"
 
 CAligne5::CAligne5(QWidget *parent)
     : QMainWindow(parent)
