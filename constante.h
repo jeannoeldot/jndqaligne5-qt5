@@ -1,6 +1,8 @@
 #ifndef CONSTANTE
 #define CONSTANTE
 
+#include <QString>
+
 const QString VERSION_PROG = "0.5.0";
 const QString NOM_PROG = "Aligne5";
 const QString ORGANISATION = "JND-Software";

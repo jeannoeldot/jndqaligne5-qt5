@@ -13,6 +13,8 @@
 
 #include "caligne5.h"
 #include "cpreference.h"
+#include "cjeu.h"
+#include "sdlplayer.h"
 
 CAligne5::CAligne5(QWidget *parent)
     : QMainWindow(parent)
